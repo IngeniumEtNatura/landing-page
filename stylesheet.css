@@ -79,6 +79,7 @@ button {
     text-align: center;
     color: #808080;
     font-size: 18px;
+    padding-bottom: 100px;
 }
 
 .information-title {
@@ -103,8 +104,28 @@ button {
     border-radius: 12px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .info {
     max-width: 200px
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    flex-direction: column;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
